@@ -8,7 +8,7 @@ int[,] CreateMatrix(int n, int m)
     {
         for (int j = 0; j < m; j++)
         {
-            int x = new Random().Next(10, 10);
+            int x = new Random().Next(1, 10);
             matrix[i, j] = x;
             Console.Write(matrix[i, j] + " ");
         }
